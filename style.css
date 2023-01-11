@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Poppins:wght@100&family=Roboto:wght@300&family=Rochester&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+html {
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.home {
+    background: url(img/home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    height: fit-content;
+    width: fit-content;
+    max-width: 85%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.home h3 {
+    color: white;
+    font-family: 'Roboto';
+    letter-spacing: 0.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.home h1 {
+    font-family: 'Rochester';
+    font-size: 7rem;
+    font-weight: 100;
+    letter-spacing: 0.75rem;
+}
+
+.home h2 {
+    font-family: 'Roboto';
+    margin-top: 1.5rem;
+    font-size: 1.75rem;
+}
+
+.home .btn {
+    background-color: white;
+    color: gray;
+    padding: 0.75rem 1rem;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-top: 4rem;
+    display: inline-block;
+    border: 2px solid white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.home .btn:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.about {
+    color: #623E2A;
+    padding-top: 2rem;
+}
+
+.about .container {
+    display: flex;
+}
+
+.about .left {
+    text-align: left;
+    flex: 1;
+    padding-left: 3rem;
+}
+
+.about .left h2 {
+    font-family: 'Roboto';
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.about .left p {
+    font-family: 'Roboto';
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.about .right {
+    height: 80vh;
+    flex: 1;
+}
+
+.about .right img {
+    height: 100%;
+    display: inline-block;
+}
+
+.rooms {
+    color: #623E2A;
+    padding-top: 2rem;
+}
+
+.rooms h1 {
+    color: #623E2A;
+    font-family: 'Rochester';
+    font-size: 5rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+.boxes {
+    display: flex;
+}
+
+.boxes .box {
+    margin: 1rem;
+    flex: 1;
+}
+
+.boxes .box .img {
+    width: 100%;
+    min-height: 37vh;
+}
+
+.boxes .box .content {
+    padding: 2rem 1.5rem;
+    padding-bottom: 2.5rem;
+    margin: 1rem 0;
+    border: 2px solid #623E2A;
+    text-align: left;
+}
+
+.boxes .box .content h3 {
+    margin: 0.15rem 0 2rem;
+    font-family: 'Roboto';
+    font-size: 0.75rem;
+}
+
+.boxes .box .content h2 {
+    font-family: 'Roboto';
+    margin-bottom: 0.75rem;
+}
+
+.boxes .box .content p {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #704d3a;
+}
+
+.family {
+    color: #623E2A;
+    padding-top: 2rem;
+}
+
+.family .container {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.family .container .img {
+    width: 100%;
+}
+
+.family .container .left,
+.family .container .right {
+    flex: 1;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.family .container .right p {
+    padding: 1rem 5rem;
+    margin-top: 1rem;
+    border: 2px solid #623E2A;
+    text-align: center;
+}
+
+.family .container .content {
+    padding: 2rem;
+    padding-right: 4rem;
+    height: 100%;
+}
+
+.family .left h1 {
+    font-size: 5rem;
+    font-weight: 100;
+    font-family: 'Rochester';
+    line-height: 0.9;
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+
+.family .left p {
+    bottom: 0;
+    font-size: 1.2rem;
+    font-family: 'Roboto';
+}
+
+.second {
+    padding-top: 2rem;
+}
+
+.second .two {
+    flex: 1.75;
+}
+
+.second img {
+    height: 65vh;
+}
+
+.second .boxes .content {
+    padding: 0;
+    min-height: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.second .box p {
+    margin: 0.75rem;
+    font-size: 0.75rem;
+    margin: auto;
+    text-align: center;
+}
+
+.hall {
+    margin-top: 6rem;
+    background: linear-gradient(to top, rgba(56, 41, 41, 0.8), rgba(56, 41, 41, 0.8)), url(img/hall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.hall h1 {
+    font-family: 'Rochester';
+    font-size: 4rem;
+    font-weight: 100;
+    margin-bottom: 3rem;
+}
+
+.hall .texts {
+    display: flex;
+    gap: 4rem;
+    margin: 2rem 0;
+}
+
+.hall .text img {
+    width: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hall .texts .text {
+    text-align: left;
+    font-size: 1.1rem;
+    font-family: 'Roboto';
+}
+
+.footer {
+    background-color: #623E2A;
+    min-height: 85vh;
+}
+
+.footer .container {
+    text-align: left;
+}
+
+.footer .ending {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.footer h1 {
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    font-family: 'Rochester';
+    font-weight: 100;
+}
+
+.footer .box {
+    flex: 1;
+    border: 2px solid white;
+    padding: 2rem;
+}
+
+.footer .box h3 {
+    margin-bottom: 1rem;
+    font-family: 'Roboto';
+    font-size: 1.25rem;
+}
+
+.footer .box a {
+    display: inline-block;
+    margin: 0.5rem 0;
+}
+
+.social i {
+    font-size: 1.75rem;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    display: flex;
+    padding-top: 15%;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+.footer .box .btn {
+    border: 1px solid white;
+    border-radius: 10rem;
+    padding: 0.75rem 1.25rem;
+    margin-top: 2rem;
+    font-family: 'Roboto';
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.footer .box .btn:hover {
+    background-color: white;
+    color: #623E2A;
+}
+
+.social i:hover {
+    color: #623E2A;
+    background-color: white;
+}
+
+i {
+    font-size: 1.25rem;
+    margin-right: 0.75rem;
+}
+
+.rights {
+    min-height: fit-content;
+    text-align: center;
+    background-color: #4a2f20;
+}
+
+.rights p {
+    color: white;
+    font-family: 'Roboto';
+    padding: 0.75rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.2rem;
+}
